@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ff9960;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    
+}
+header ul li{
+    margin: 35px;
+    color: aliceblue;
+    padding-left: 75px;
+    
+}
+img{
+    width: 100px;
+    padding-left: 50px;
+    margin: 10px 0 10px 0;
+}
+.caja{
+    width: 99%;
+    padding: 10px;
+}
+
+h1{
+    font-size: 35px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    height: 70px;
+    justify-content: flex-end;
+    padding-left: 40%;
+    
+
+}
+p{
+    font-size: 25px;
+    background-color: #ff9960;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    width: 97%;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction:column;
+    width: 99%;
+    background-color: rgb(168, 167, 167);
+}
+.caja1 {
+    padding: 10px;
+    margin-right: 150px;
+    font-size: 10px;
+    
+}
+.caja2{
+    width: 99%;
+    padding: 10px;
+    display: flex;
+    flex-basis: 10px;
+    flex-direction: row-reverse;
+    
+
+}
+.caja2 img{
+    padding: 10px;
+    margin-right: 250px;
+    border-radius: 50%
+
+}
+.caja2 p{
+    margin-left: 250px;
+    background-color: rgb(167, 169, 170);
+   font-size: 40px;
+   
+    
+}
